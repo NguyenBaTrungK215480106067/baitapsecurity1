@@ -1,0 +1,33 @@
+#Dll đa năng
+using System;
+
+namespace MultiToolLibrary
+{
+    public static class MathTool
+    {
+       
+        public static int Tong(int a, int b)
+        {
+            return a + b;
+        }
+
+       
+        public static int Hieu(int a, int b)
+        {
+            return a - b;
+        }
+
+        
+        public static int Nhan(int a, int b)
+        {
+            return a * b;
+        }
+
+       
+        public static double Chia(int a, int b)
+        {
+            if (b == 0) throw new DivideByZeroException("Không thể chia cho 0");
+            return (double)a / b;
+        }
+    }
+}
