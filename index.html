@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Mã hóa Cổ điển</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Classic Ciphers</h1>
+
+  <div class="info">
+    <p>Tên: Lung Quốc Trê</p>
+    <p>Lớp: K58KTP</p>
+    <p>MSSV: k225480106065</p>
+  </div>
+
+  <div class="container">
+    <label for="text">Enter Text:</label>
+    <textarea id="text" rows="4"></textarea>
+
+    <label for="method">Select Method:</label>
+    <select id="method">
+      <option value="caesar">Caesar</option>
+      <option value="affine">Affine</option>
+      <option value="transposition">Hoán vị</option>
+      <option value="vigenere">Vigenère</option>
+      <option value="playfair">Playfair</option>
+    </select>
+
+    <label for="key">Enter Key:</label>
+    <input id="key" type="text" placeholder="Ví dụ: 3 hoặc ABC...">
+
+    <button onclick="encrypt()">Encrypt</button>
+    <button onclick="decrypt()">Decrypt</button>
+
+    <div class="result" id="result">Result</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
