@@ -1,5 +1,5 @@
-<img width="818" height="318" alt="image" src="https://github.com/user-attachments/assets/d8166ab0-dbb2-4710-a189-e21db70b4b1d" />HomeWork01-Security
-<img width="818" height="322" alt="image" src="https://github.com/user-attachments/assets/bb63d279-e979-4421-b2af-90977f2be491" />
+
+
 Nguyễn Bá Trung K2154801060676
 Các kiểu mã hóa
 1. Mã hóa Caesar (Caesar Cipher)
